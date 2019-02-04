@@ -1,0 +1,22 @@
+uuid: 58730c7f-e953-4303-8b54-8bcdd724295a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gcweb
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: gcweb_messages
+theme: gcweb
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

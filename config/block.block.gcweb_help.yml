@@ -1,0 +1,22 @@
+uuid: 35007f8c-c7bc-4cb5-b51b-3d5ac3dcb26f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gcweb
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gcweb_help
+theme: gcweb
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
